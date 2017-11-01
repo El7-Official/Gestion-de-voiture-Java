@@ -3,7 +3,7 @@ package VehiculeMoteurs;
 public abstract class Moteur {
 	private String cylindre;
 	private double prix;
-	private TypeMoteur type;
+	protected TypeMoteur type;
 	
 	public Moteur(String cylindre, double prix) {
 		this.cylindre = cylindre;
@@ -11,7 +11,7 @@ public abstract class Moteur {
 	}
 	
 	public String toString() {
-		return "";
+		return "Moteur "+this.type+" "+this.cylindre+" ("+this.prix+")";
 	}
 	
 	public double getPrix() {
