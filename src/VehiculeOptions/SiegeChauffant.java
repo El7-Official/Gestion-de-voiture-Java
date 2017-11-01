@@ -1,6 +1,6 @@
 package VehiculeOptions;
 
-public class SiegeChaffaunt implements Option{
+public class SiegeChauffant implements Option{
 
 	@Override
 	public double getPrix() {
