@@ -1,5 +1,7 @@
 package VehiculeMoteurs;
 
+import VehiculeMarque.Vehicule;
+
 public abstract class Moteur {
 	private String cylindre;
 	private double prix;
@@ -11,7 +13,7 @@ public abstract class Moteur {
 	}
 	
 	public String toString() {
-		return "Moteur "+this.type+" "+this.cylindre+" ("+this.prix+")";
+		return "Moteur "+this.type+" "+this.cylindre+" ("+this.prix+Vehicule.prixSigne+")";
 	}
 	
 	public double getPrix() {
