@@ -1,8 +1,9 @@
 package VehiculeMoteurs;
 
+import java.io.Serializable;
 import VehiculeMarque.Vehicule;
 
-public abstract class Moteur {
+public abstract class Moteur implements Serializable{
 	private String cylindre;
 	private double prix;
 	protected TypeMoteur type;
