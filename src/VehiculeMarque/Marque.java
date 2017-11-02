@@ -1,6 +1,7 @@
 package VehiculeMarque;
 
-public enum Marque {
+
+public enum Marque{
 	RENO,
 	PIGEOT,
 	TROEN

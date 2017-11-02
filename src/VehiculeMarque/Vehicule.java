@@ -1,11 +1,12 @@
 package VehiculeMarque;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import VehiculeMoteurs.Moteur;
 import VehiculeOptions.Option;
 
-public abstract class Vehicule{
+public abstract class Vehicule implements Serializable{
 	public static char prixSigne = '€';
 	private double prix;
 	private String nom;
