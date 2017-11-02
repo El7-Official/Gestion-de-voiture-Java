@@ -1,6 +1,7 @@
 package VehiculeMoteurs;
 
-public enum TypeMoteur {
+
+public enum TypeMoteur{
 	DIESEL,
 	ESSENCE,
 	HYBRIDE,
